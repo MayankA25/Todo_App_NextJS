@@ -1,5 +1,5 @@
 import { Todo } from "@/models/todoModel";
-import todosData from "../../../../todos.json";
+// import todosData from "../../../../todos.json";
 import { writeFile } from "fs/promises";
 import { connectDB } from "@/lib/connectdb";
 import { getLoggedInUser } from "@/lib/auth";

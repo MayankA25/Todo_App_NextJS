@@ -1,5 +1,5 @@
 import { connectDB } from "@/lib/connectdb";
-import todosData from "../../../todos.json";
+// import todosData from "../../../todos.json";
 import { readFile, writeFile } from "fs/promises";
 import { Todo } from "@/models/todoModel";
 import { cookies } from "next/headers";
